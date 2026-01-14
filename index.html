@@ -167,7 +167,7 @@
 
         if (cryptogramResult.success) {
             try {
-                const response = await fetch('https://checkout-tiptoppay.onrender.com', {
+                const response = await fetch('https://checkout-tiptoppay.onrender.com/charge', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({
@@ -241,3 +241,4 @@
 </body>
 
 </html>
+
