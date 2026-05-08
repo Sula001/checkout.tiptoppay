@@ -94,7 +94,7 @@ def postback_3ds():
     icon = "✅" if is_success else "❌"
 
     # URL для кнопки возврата (поправь порт, если он отличается)
-    return_url = "http://127.0.0.1:5500/frontend/index.html"
+    return_url = "https://sula001.github.io/checkout.tiptoppay/"
 
     return f"""
     <html>
